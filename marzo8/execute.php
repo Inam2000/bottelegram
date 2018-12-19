@@ -51,7 +51,7 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
                 if($text=="meteo"){
-		$text="Il meteo è nevoso: ";
+		$text="Il meteo è nevoso ";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 			
