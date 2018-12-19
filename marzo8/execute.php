@@ -54,6 +54,9 @@
 		$text="Il meteo è nevoso ";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
+                if($text=="foto"){
+		sendFoto($chatId, "foto.png", false, "La mia foto", $api);
+		}
 			
 	
 		
