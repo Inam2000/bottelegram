@@ -59,11 +59,20 @@
 			$foto[1]="foto1.png";
 			$foto[2]="foto2.png";
 			$num=rand(0,2)
+				
 			
 			
 		sendFoto($chatId, "foto.png", false, "La mia foto", $api);
 		}
+                if($text=="barz"){
+		   $barz[0]="Un cavallo va dal benzinaio e chiede; fammi un fieno per favore!";
+		$barz[1]"Tim informa che acquistando i preservativi delle ferrovie dello Stato potrai venire anche tu con 50 minuti di ritardo.!";
+		$barz[2]"Come si chiama il povero faraone egiziano morto in un incidente stradale? Sutankamion!";
+		$i= srand(0,2);
 			
+			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
+		}
+		
 	
 		
 		//aggiungo il comando di invio
