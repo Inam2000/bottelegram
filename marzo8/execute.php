@@ -62,7 +62,7 @@
 				
 			
 			
-		sendFoto($chatId, "foto.png", false, "La mia foto", $api);
+		sendFoto($chatId,$foto[$num],false, "La mia foto", $api);
 		}
                 if($text=="barz"){
 		   $barz[0]="Un cavallo va dal benzinaio e chiede; fammi un fieno per favore!";
