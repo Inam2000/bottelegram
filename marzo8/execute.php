@@ -51,7 +51,7 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
                 if($text=="meteo"||$text=="/meteo"){
-		$text="Il meteo è nevoso ";
+		$text="Il meteo è nevoso";
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
                 if($text=="foto"||$text=="/foto"){
@@ -59,10 +59,8 @@
 			$foto[1]="foto1.png";
 			$foto[2]="foto2.png";
 			$num=rand(0,2);
-				
-			
-			
-		sendFoto($chatId,$foto[$num],false, "La mia foto", $api);
+						
+		sendFoto($chatId,$foto[$num],false,"La mia foto",$api);
 		}
                 if($text=="barz"){
 		   $barz[0]="Un cavallo va dal benzinaio e chiede; fammi un fieno per favore!";
