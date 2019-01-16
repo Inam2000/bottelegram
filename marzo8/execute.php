@@ -75,6 +75,12 @@
 	       
 	       
 	       }
+              if($text=="inam"{
+		      sendAudio($chatId, "inam.mp3", false, "Imran Khan", $api);
+	      
+	      
+	      
+	      }
 		
 	
 		
