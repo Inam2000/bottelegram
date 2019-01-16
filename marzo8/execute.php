@@ -62,7 +62,7 @@
 						
 		sendFoto($chatId,$foto[$num],false,"La mia foto",$api);
 		}
-                if($text=="barz"){
+                if($text=="barz"||$text=="barz"){
 		   $barz[0]="Un cavallo va dal benzinaio e chiede; fammi un fieno per favore!";
                	   $barz[1]="Tim informa che acquistando i preservativi delle ferrovie dello Stato potrai venire anche tu con 50 minuti di ritardo!";
 		$barz[2]="Come si chiama il povero faraone egiziano morto in un incidente stradale? Sutankamion!";
@@ -70,7 +70,7 @@
 			
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 		}
-               if($text=="audio"||$text=="audio"){
+               if($text=="audio"){
 	          sendAudio($chatId, "audio.mp3", false, "Il mio audio", $api);
 	       
 	       
